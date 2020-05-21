@@ -7,9 +7,11 @@
     <title>Text Adventure!</title>
 </head>
 <body>
-    <a href="/play.html" class="w3-button w3-black">PLAY</a>
-    <a href="/options.html" class="w3-button w3-black">OPTIONS</a>
-    <button onclick="closeWin()">QUIT</button>
-    <script src="start.js"></script>
+    <form action="/game.html">
+        <label for="Name">Character Name</label><br>
+        <input type="text" name="Name" id="Name"><br>
+        <button onclick="nextPage()" type="submit">Start</button>
+    </form>
+    <script src="creation.js"></script>
 </body>
 </html>
