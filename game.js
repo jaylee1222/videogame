@@ -11,7 +11,10 @@ function scene1(name) {
 }
 
 function scene2(name) {
-    document.getElementById("gamestage").innerHTML = "Hello " + playername;
+    document.getElementById("gamestage").innerHTML = "Hello, " + name + " careful now, you don't want to hurt those delicate wrists of yours. It would be a shame if you hurt them, would make it mighty hard to write, wouldn't it? Nobody wants that, especially me.";
+    document.getElementById("button 1").innerHTML = "<button onclick = 'scene3()'>Try to struggle free again</button>"
+    document.getElementById("button 2").innerHTML = "<button onclick = ''>You son of a bitch, what do you want with me?</button>"
+    document.getElementById("button 3").innerHTML = "<button onclick = ''>"
 }
 
 scene1(name)
